@@ -34,7 +34,7 @@ void enque(int queue[], int ele,int *prear)
 {
     if (*prear==size-1)
     {
-        printf("Queue overflow. This element cannot be added to stack.\n");
+        printf("Queue overflow. This element cannot be added to the queue.\n");
     }
     else
     {
