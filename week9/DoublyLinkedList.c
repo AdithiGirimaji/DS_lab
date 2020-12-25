@@ -98,6 +98,7 @@ void insert_right()
 			temp1->next=newnode;
 			newnode->prev=temp1;
 			newnode->next=NULL;
+		        return;
 		}
 	if(temp2==NULL)
     {
